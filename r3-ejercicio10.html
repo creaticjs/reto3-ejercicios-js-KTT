@@ -44,40 +44,45 @@
                         <div class="col col-sm-6 col-md-8 offset-md-2">
                             <strong>Ejercicio 10</strong>
                             <p>
-                                Escribir un programa que acepte un año escrito en cifras arábicas y visualice el año escrito en números romanos 
+                                Escribir un programa que calcule el mcd
                             </p>
                             <hr style="color: #0056b2;" />
                             <div class="form-group">
                                 <div class="form-group row">
-                                    <label for="input" class="col-sm-3 col-form-label">Número</label>
+                                    <label for="input" class="col-sm-3 col-form-label">Número 1</label>
                                         <div class="col-sm-8">
-                                            <input id="numero" type="text" class="form-control"  placeholder="Número (ejemplo: 1959)">
+                                            <input id="m" type="text" class="form-control"  placeholder="Número 1">
+                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="input" class="col-sm-3 col-form-label">Número 2</label>
+                                        <div class="col-sm-8">
+                                            <input id="n" type="text" class="form-control"  placeholder="Número 2">
                                         </div>
                                 </div>
                                 <div class="form-group row mt-5">
                                     <div class="col-sm-10">
-                                        <button type="submit" class="btn btn-success" onclick="calcularRomano()">Calcular Romano</button>
+                                        <button type="submit" class="btn btn-success" id="calculate"">Calcular mcd</button>
                                     </div>
-                                </div>
-                                <div class="col mt-5 text-center">
-                                    <h4><span id="result" class="badge badge-dark"></span></h4>
                                 </div>
                                 <div class="toast" data-delay="3000">
                                     <div class="toast-header">
                                       Alerta
                                     </div>
                                     <div class="toast-body">
-                                      El número debe ser positivo
+                                      Los números deben ser positivos
                                     </div>
                                 </div>
+                                <div class="col mt-3 text-center">
+                                    <h4><span id="result" class="badge badge-dark"></span></h4>
+                                </div>
+                                
                         </div>
                     </div>
                 </div>
             </section>
             <!-- /ejercicio 1-->
            
-
- 
     <!-- Bootstrap JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

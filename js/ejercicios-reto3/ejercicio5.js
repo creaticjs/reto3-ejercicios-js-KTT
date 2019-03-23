@@ -20,4 +20,3 @@
 	var calculate=document.getElementById("calculate");
 	calculate.addEventListener("click", leap.calculateLeap);
 	
-    
